@@ -133,6 +133,7 @@ function heroActions(props) {
                     <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" data-sb-field-path={`.${index}`} />
                 ))}
             </div>
+            <p data-sb-field-path=".subtest">{props.subtest}</p>
         </div>
     );
 }

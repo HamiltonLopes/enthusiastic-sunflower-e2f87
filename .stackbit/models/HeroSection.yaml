@@ -23,6 +23,10 @@ fields:
     name: subtitle
     label: Subtitle
     default: The section subtitle
+  - type: string
+    name: subtest
+    label: Subtest
+    default: The section subtest
   - type: model
     name: badge
     label: Badge

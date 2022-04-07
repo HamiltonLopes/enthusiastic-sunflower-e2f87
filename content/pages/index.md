@@ -6,7 +6,7 @@ sections:
     elementId: homepage-hero-1
     colors: colors-a
     title: 'Love your work. Work loves you.'
-    subtitle: 'One platform, one community.'
+    subtitle: 'test my life.'
     actions:
       - type: Button
         label: Get Started

@@ -2,6 +2,10 @@
 title: Home
 layout: PageLayout
 sections:
+  - type: BannerSection
+    colors: colors-a
+    elementId: ''
+    title: LOL
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a

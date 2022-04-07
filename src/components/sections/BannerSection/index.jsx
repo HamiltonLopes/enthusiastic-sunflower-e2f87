@@ -9,7 +9,7 @@ import { Action, Badge } from '../../atoms';
 
 export default function BannerSection(props) {
     
-    return (<p>lol testei</p>
-
+    return (<div {...getDataAttrs(props)}> <p data-sb-field-path=".title">{props.title}</p></div>
+    
     );
 }

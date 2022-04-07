@@ -41,6 +41,7 @@ const components = {
     'FeaturedPeopleSection': dynamic(() => import('./sections/FeaturedPeopleSection')),
     'FormBlock': dynamic(() => import('./molecules/FormBlock')),
     'HeroSection': dynamic(() => import('./sections/HeroSection')),
+    'BannerSection': dynamic(() => import('./sections/BannerSection')),
     'ImageBlock': dynamic(() => import('./molecules/ImageBlock')),
     'JobsSection': dynamic(() => import('./sections/JobsSection')),
     'MediaGallerySection': dynamic(() => import('./sections/MediaGallerySection')),

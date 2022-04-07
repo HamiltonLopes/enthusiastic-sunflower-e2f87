@@ -1,0 +1,19 @@
+type: object
+name: BannerSection
+label: Banner
+labelField: title
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+extends:
+  - Section
+groups:
+  - sectionComponent
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: This Is A Big Hero Headline
